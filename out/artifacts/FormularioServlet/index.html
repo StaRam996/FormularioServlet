@@ -6,18 +6,18 @@
 </head>
 <body>
 <h1>Manejo de formulario</h1>
-<div>
-    <form action="/ingresar" method="post">
+<div >
+    <form action="/ingresar" method="post" id="formulario">
         <div>
             <label for="username">Ingrese el usuario</label>
             <input type="text" name="username" id="username" placeholder="Nombre">
         </div>
-<br>
+        <br>
         <div>
             <label for="password">Ingrese la contraseña</label>
             <input type="password" name="pasaword" id="password" placeholder="Password">
         </div>
-<br>
+        <br>
         <div>
             <label for="email">Ingrese el email</label>
             <input type="text" name="email" id="email" placeholder="email">
@@ -33,12 +33,49 @@
 </div>
 <div>
     <style>
-        h1{color: #d54141;
-        font-family: "Arial Narrow"
-        }
-        body{
-            background: aqua;
-        }
+
+body {  
+    background-color: #A4D5E1; 
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+}  
+
+h1 {  
+    color: #FF6F61; 
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    text-align: center;  
+    text-shadow: 1px 1px 3px #fff; 
+    margin-bottom: 15px;  
+}  
+
+
+#formulario {  
+    background-color: #FFB3BA;  
+    padding: 15px; 
+    border-radius: 5px; 
+    max-width: 380px;  
+    width: 100%;  
+    border: 2px solid #FF6F61;  
+}  
+
+label {  
+    display: block;  
+    margin-bottom: 8px;  
+    color: #4A4A4A;  
+    font-size: 14px;  
+}  
+
+input {  
+    display: block;  
+    margin-bottom: 10px; 
+    padding: 5px;   
+    border: 1px solid #FF6F61; 
+    border-radius: 3px; 
+    font-size: 14px; 
+    background-color: #FFF; 
+}  
+
+
+
 
     </style>
 </div>
